@@ -1,0 +1,80 @@
+html, body{
+    background: #333;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.subtitle{
+    font-weight: 100;
+    color: #aaa;
+}
+
+h1{
+    background: #555;
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.inputUnit{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.inputUnit input, .inputUnit textarea{
+    font-size: 20px;
+    background: #444;
+    border: 2px solid #444;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 15px;
+    transition: .3s;
+    outline: 0;
+    color: #eee;
+
+    width: 300px
+}
+.inputUnit input:focus, .inputUnit textarea:focus{
+    border: 2px solid #ac3762;
+}
+
+.inputUnit label{
+    border-bottom: 2px solid #ac3762;
+}
+
+.inputUnit textArea{
+    position: relative;
+    top: 50px;
+    height: 100px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 30px;
+}
+
+input[type=submit]{
+    padding: 10px 50px;
+    font-size: 20px;
+    color: white;
+    background: #d20852;
+    border: 2px solid #68213b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+
+    box-shadow: 0 0 8px 4px #68213b77;
+}
+
+input[type=submit]:hover{
+    background: #f41c6b;
+    box-shadow: 0 0 8px 4px #f41c6b55;
+
+}
