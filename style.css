@@ -2,7 +2,7 @@ html,
 body {
     background: #333;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -15,10 +15,14 @@ body {
 }
 
 h1 {
-    background: #555;
+    background: #444;
     padding: 15px;
     margin: 0;
     margin-bottom: 15px;
+    font-size: 48px;
+    text-shadow: 0 0 4px #795e67;
+    letter-spacing: 3px;
+    font-weight: 100;
 }
 
 .inputUnit {
@@ -42,7 +46,7 @@ h1 {
     transition: .3s;
     outline: 0;
     color: #eee;
-    width: 300px
+    width: 250px
 }
 
 .inputUnit input:focus,
@@ -51,7 +55,8 @@ h1 {
 }
 
 .inputUnit label {
-    border-bottom: 2px solid #ac3762;
+    padding-bottom: 2px;
+    border-bottom: 2px dashed #ac3762;
 }
 
 .inputUnit textArea {
@@ -64,23 +69,25 @@ table {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    text-align: left;
+    text-align: right;
     line-height: 30px;
 }
 
 input[type=submit] {
-    padding: 10px 50px;
+    padding: 15px 70px;
     font-size: 20px;
     color: white;
     background: #d20852;
     border: 2px solid #68213b;
-    border-radius: 4px;
+    border-radius: 100px;
     cursor: pointer;
     transition: .3s;
     box-shadow: 0 0 8px 4px #68213b77;
+    outline: 0;
 }
 
 input[type=submit]:hover {
     background: #f41c6b;
     box-shadow: 0 0 8px 4px #f41c6b55;
+    transform: scale(1.05)
 }
